@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examen papa</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="name">Nombre:</label>
+            <br>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            <button type="button" onclick="capturaData()">enviar datos</button>
+        </form>
+        
+        <h2>esto es una lista de compras </h2>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>id</td>
+                <td>producto</td>
+                <td>nombre</td>
+            </tr>
+        </table>
+    </div>
+   
+</body>
+<script>
+    function capturaData(){
+        const nombre = document.getElementById("nombre").value;
+        const = document.querySelector("div");
+        const table = document.createElement("table")
+        table.innerHTML = `<table><tr><td>${nombre}</td></tr></table>`
+        div.append(table)
+        
+        
+    }
+</script>
+</html>

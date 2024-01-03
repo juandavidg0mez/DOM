@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+        <div id="nombre">
+            <label for="name">Nombre: </label> <br>
+            <input type="text" name="nombre">
+        </div>
+        <br><br>
+        <br><br>
+        <div>
+            <label for="opciones">Material de la caja</label><br>
+
+            <select id="opciones" name="opciones">
+                <option value="plactico">plactico</option>
+                <option value="carton">carton</option>
+                <option value="vidrio">vidrio</option>
+                <option value="papael">papael</option>
+            </select>
+        </div>
+        <br><br>
+        <br><br>
+        <br>
+        <div>
+            <label for="seleccion">Seleccione unas demenciones de la caja</label>
+            <br>
+            <input type="radio" name="tipo" class="medidas" value="pequeña">
+            <label for="pequeña">pequeña</label>
+            <br><br>
+            <input type="radio" name="tipo" class="medidas" value="Grande">
+            <label for="Grande">Grande</label>
+            <br><br>
+            <input type="radio" name="tipo" class="medidas" value="Mediana">
+            <label for="Mediana">Mediana</label>
+            <br><br>
+            <input type="radio" name="tipo" class="medidas" value="Extra-Pequeña">
+            <label for="Extra-Pequeña">Extra-Pequeña</label>
+            <br><br>
+            <input type="radio" name="tipo" class="medidas" value="Extra-Grande">
+            <label for="Extra-Grande">Extra-Grande</label>
+        
+        </div>
+        <div>
+            <label for="areaTexto">Ingresa texto:</label> <br>
+
+        <textarea id="areaTexto" name="areaTexto" rows="4" cols="60"></textarea>
+        <br>
+        
+        </div>
+        <button onclick="enviar">envia</button>
+  
+ 
+</body>
+<script>
+    function enviar(){
+        const name = document.getElementById("nombre")
+        console.log(name.value)
+            const opciones = ()=>{
+            const value = document.querySelector('[name=tipo]:checked').value;
+            console.log(value)
+        }
+        p.innerHTML = name
+        const p = document.createElement("p")
+        div.append(p)
+        
+    }
+    
+
+</script>
+
+</html>
