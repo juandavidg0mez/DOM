@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .boton {
+        display: block;
+        width: 100px;
+        cursor: pointer;
+        margin: 10px;
+        border: 1px solid black
+    }
+</style>
+
+<body>
+    <div id="boton1" class="boton">Pulsar aquí</div>
+    <div id="boton2" class="boton">Pulsar aquí</div>
+    <script>
+        document.getElementById("boton1").addEventListener("click", function () {
+            pulsar("boton1");
+        });
+
+        document.getElementById("boton2").addEventListener("click", function () {
+            pulsar("boton2");
+        });
+
+        function pulsar(idBoton) {
+            alert("Se pulsó el botón con ID: " + idBoton);
+        }
+        
+    </script>
+</body>
+
+</html>

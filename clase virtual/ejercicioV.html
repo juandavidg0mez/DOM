@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <button id="myButton">Haz clic aqui</button>
+  <div id="buttonDiv"> click a <b>aqui</b> para quitar el evento</div> 
+  <script>
+    const myButton = document.getElementById('myButton')
+    const buttonDiv = document.getElementById('buttonDiv')
+
+    const handleClick = ()=>{
+        alert('Boton Clickeado')
+    }
+
+    myButton.addEventListener('click', handleClick);
+
+    buttonDiv.addEventListener('click', ()=>{
+        alert('has hecho clic fuera del boton')
+        myButton.removeEventListener('click', handleClick)
+    })
+  </script> 
+</body>
+</html>
