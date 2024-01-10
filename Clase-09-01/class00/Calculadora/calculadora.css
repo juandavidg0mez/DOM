@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 50px;
+    width: 35%;
+    margin: 30px;
+    user-select: none;
+    background-color: rgb(190, 188, 184);
+    gap: 5px;
+    border-radius: 20px;
+
+}
+
+.operar {
+    padding: 20px;
+    width: 80px;
+    background-color: rgb(83, 83, 83);
+    font-size: 2rem;
+}
+
+#resultado {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+#result {
+    width: 34%;
+    height: 80px;
+
+}
+
+/* operarciones signos */
+
+.sumar {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    /* grid-row-end: 2; */
+}
+
+.igual {
+    grid-column-start: 4;
+    grid-row-start: 3;
+    grid-row-end: 7;
+
+}
+
+.restar {
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+.multiplicar {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.dividir {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.borrar {
+    grid-column-start: 3;
+    grid-row-start: 6;
+}
+
+.cero {
+    grid-column-start: 1;
+    grid-row-start: 6;
+}
+
+.punto {
+    grid-column-start: 2;
+    grid-row-start: 6;
+}
+
+/* lineaAbajo */
+.num7 {
+    grid-column-start: 3;
+    grid-row-start: 5;
+
+}
+
+.num8 {
+    grid-column-start: 2;
+    grid-row-start: 5;
+}
+
+.num9 {
+    grid-column-start: 1;
+    grid-row-start: 5
+}
+
+/* lineaCentro */
+.num4 {
+    grid-column-start: 3;
+    grid-row-start: 4
+}
+
+.num5 {
+    grid-column-start: 2;
+    grid-row-start: 4
+}
+
+.num6 {
+    grid-column-start: 1;
+    grid-row-start: 4
+}
+
+/* lineaSuperior */
+.num1 {
+    grid-column-start: 3;
+    grid-row-start: 3
+}
+.num2 {
+    grid-column-start: 2;
+    grid-row-start: 3
+}
+.num3 {
+    grid-column-start: 1;
+    grid-row-start: 3
+}

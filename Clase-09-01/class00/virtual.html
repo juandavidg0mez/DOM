@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <label>Coordenada X</label>
+        <input id="cX">
+    </div>
+    <div>
+        <label>Coordenada Y</label>
+        <input id="cY">
+    </div>
+    <script>
+        // const cX = document.getElementById('cX');
+        // const cY = document.getElementById('cY');
+        // let CordenadaX = document.addEventListener('click',(e) =>console.log(e.clientX) )
+        // let CordenadaY = document.addEventListener('click',(e) =>console.log(e.clientY) )
+
+        // cX.textContent = 'CordenadaX'
+
+        //normalmneto he visto que decalarar el evento que desean Se utiliza document.addEventListener para agregar un controlador de eventos al documento para el evento mousemove 
+        document.addEventListener('mousemove', function(event) {
+            // Obtener las coordenadas del ratón en relación con la pantalla
+            //declaran el evento y a ese evento le dan el metodo 
+            let x = event.screenX;
+            let y = event.screenY;
+
+            // Actualizar los valores en los campos de entrada y actilizar sacnaod el valor 
+            document.getElementById('cX').value = x;
+            document.getElementById('cY').value = y;
+        })
+    </script>
+</body>
+
+</html>
