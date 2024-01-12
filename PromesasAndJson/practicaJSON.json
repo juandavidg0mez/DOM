@@ -1,0 +1,36 @@
+{
+    "nombre": "David ELiezer",
+    "apellido": "Gomez Meza",
+    "lenguajes": ["JavaScript", "Python", "C++"],
+    "edad": 30,
+    "experiencia": [
+        {
+            "empresa": "Microsoft",
+            "antiguedad": 5
+        },
+        {
+            "empresa": "Google",
+            "antiguedad": 3
+        }
+    ],
+    "direccion": {
+        "calle": "123",
+        "numero": 40,
+        "colonia": "san pedro",
+        "pago_agua": [
+            {
+                "id": 0,
+                "fecha": "abril 2017"
+            },
+            {
+                "id": 1,
+                "fecha": "abril 2018"
+            },
+            {
+                "id": 2,
+                "fecha": "abril 2020"
+            }
+        ]
+    }
+    
+}
