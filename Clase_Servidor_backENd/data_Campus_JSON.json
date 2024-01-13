@@ -1,0 +1,48 @@
+{
+  "trainers": [
+    {
+      "id": "1",
+      "nombre": "carlos",
+      "apellidos": "rueda",
+      "especialidad": "Python"
+    },
+    {
+      "id": "2",
+      "nombre": "Marta",
+      "apellidos": "MEza",
+      "especialidad": "Java"
+    },
+    {
+      "id": "4",
+      "nombres": "Juan",
+      "apellidos": "Gomez",
+      "especialidad": "FullStack Python & SQL"
+    }
+  ],
+  "campers": [
+    {
+      "id": "1",
+      "nombres": "luis",
+      "apellidos": "ariza",
+      "trainerId": "1"
+    },
+    {
+      "id": "2",
+      "nombres": "Juan David",
+      "apellidos": "Gomez",
+      "trainerId": "2"
+    },
+    {
+      "id": "3",
+      "nombres": "Monica",
+      "apellidos": "Perez",
+      "trainerId": null
+    }
+  ],
+  "salones": [
+    {
+      "id": "a136",
+      "ubicacion": "apolo 11"
+    }
+  ]
+}
