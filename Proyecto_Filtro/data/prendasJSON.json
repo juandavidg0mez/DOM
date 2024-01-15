@@ -1,0 +1,142 @@
+[
+    {
+        "prendaId": 0,
+        "nombrePrenda": "Camisa Azul Degrade",
+        "coleccion": "Estelar",
+        "tallas": [
+            "XS",
+            "XL",
+            "S",
+            "M",
+            "L"
+        ],
+        "precio": "$65.000",
+        "rutaprenda": "/imagenes/imagen_01.JPG",
+        "contacto": "Jacks",
+        "enviosLugares": [
+            {
+                "lugar": "Villavicencio",
+                "costo": "Envio Gratis"
+            },
+            {
+                "lugar": "España",
+                "costo": [
+                    120,
+                    "€"
+                ]
+            }
+        ]
+    },
+    {
+        "prendaId": 1,
+        "nombrePrenda": "Pantalon en Negro Caballero",
+        "coleccion": "Estelar",
+        "tallas": [
+            "XS",
+            "XL",
+            "S",
+            "M",
+            "L"
+        ],
+        "precio": "$110.000",
+        "rutaprenda": "/imagenes/imagen_02.JPG",
+        "contacto": "Jacks",
+        "enviosLugares": [
+            {
+                "lugar": "Villavicencio",
+                "costo": "Envio Gratis"
+            },
+            {
+                "lugar": "España",
+                "costo": [
+                    120,
+                    "€"
+                ]
+            }
+        ]
+    },
+    {
+        "prendaId": 2,
+        "nombrePrenda": "Pantalon En Dril Dama",
+        "coleccion": "Estelar",
+        "tallas": [
+            "XS",
+            "XL",
+            "S",
+            "M",
+            "L"
+        ],
+        "precio": "$120.000",
+        "rutaprenda": "/imagenes/imagen_03.JPG",
+        "contacto": "Jacks",
+        "enviosLugares": [
+            {
+                "lugar": "Villavicencio",
+                "costo": "Envio Gratis"
+            },
+            {
+                "lugar": "España",
+                "costo": [
+                    120,
+                    "€"
+                ]
+            }
+        ]
+    },
+    {
+        "prendaId": 3,
+        "nombrePrenda": "Camisa OverSlice",
+        "coleccion": "Bajos Y Tintos",
+        "tallas": [
+            "XS",
+            "XL",
+            "S",
+            "M",
+            "L"
+        ],
+        "precio": "$55.000",
+        "rutaprenda": "/imagenes/imagen_04.JPG",
+        "contacto": "Jacks",
+        "enviosLugares": [
+            {
+                "lugar": "Villavicencio",
+                "costo": "Envio Gratis"
+            },
+            {
+                "lugar": "España",
+                "costo": [
+                    120,
+                    "€"
+                ]
+            }
+        ]
+    },
+    {
+        "prendaId": 4,
+        "nombrePrenda": "Conjunto Ejecutivo Dama",
+        "coleccion": "Ejecutivo",
+        "tallas": [
+            "XS",
+            "XL",
+            "S",
+            "M",
+            "L"
+        ],
+        "precio": "$120.000",
+        "rutaprenda": "/imagenes/imagen_05.jpg",
+        "contacto": "Jacks",
+        "enviosLugares": [
+            {
+                "lugar": "Villavicencio",
+                "costo": "Envio Gratis"
+            },
+            {
+                "lugar": "España",
+                "costo": [
+                    120,
+                    "€"
+                ]
+            }
+        ]
+    }
+]
