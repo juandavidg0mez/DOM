@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Proyecto_Filtro/estilos/stylos_02.css">
     <title>Tu Página</title>
 </head>
+
 <body>
     <header>
         <h1>Mi Página</h1>
@@ -22,33 +24,61 @@
     <main>
         <section id="agendamiento" class="content">
             <h2>Agendamiento</h2>
-            <ul>
+            <!-- <ul>
                 <li>Horas</li>
                 <li>Días</li>
                 <li>Especificación de lo que se va a hacer</li>
                 <li>La posibilidad de agregar, eliminar y hacer el check</li>
                 <li>Visualización gráfica en un calendario</li>
-            </ul>
+            </ul> -->
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="Apellidos">Apellidos</label>
+                <input type="text" id="lastName">
+            </div>
+            <div>
+                <label for="number">Contacto</label>
+                <input type="text" id="number">
+            </div>
+            <div>
+                <label for="opcionSelect">Selecciona la opcion mas acertada a tu caso: </label>
+                <select id="opcionSelect">
+                    <option value="opcion1">Confeccion de Prendas</option>
+                    <option value="opcion2">Ajuste De Prendas</option>
+                    <option value="opcion3">Arreglo De prendas</option>
+                </select>
+            </div><br>
+
+            <div>
+                <label for="agendar">Fecha y hora En la que deseas acercarte</label><br>
+                <input type="datetime-local" id="agendar">
+            </div>
+
+
+            
+
+
         </section>
 
-        <section id="menu" class="content">
-            <h2>Menú</h2>
-            <ul>
-                <li>Agendamiento</li>
-                <li>Prendas</li>
-                <li>Ubicación</li>
-                <li>Quiénes somos</li>
-            </ul>
+        <section id="ubicacionContacto" class="content">
+            <h2>Ubicacion y Contacto</h2>
+            <h2>WhatApp</h2>
+            <h2>314-217-8889</h2>
+            <p>Ubicacion Bogota .DC</p>
+
         </section>
 
-        <section id="prendas" class="content prendasGrid" >
-            <h2>Colecciones Jacks</h2>
-            <section class="contenedor">
-                <h1>LLeva tu prenda Preferida</h1>
+        <section id="prendas" class="content prendasGrid">
+            <!-- <h2>Colecciones Jacks</h2>
+            <h1>LLeva tu prenda Preferida</h1> -->
+            <section class="contenedor contenedorGrid">
                 <div id="contenedor-Primario"></div>
             </section>
-        
-            
+
+
         </section>
 
         <section id="formulario-envio" class="content">
@@ -67,4 +97,5 @@
     </footer>
     <script src="/Proyecto_Filtro/JavaScript/lecturaData.js"></script>
 </body>
+
 </html>

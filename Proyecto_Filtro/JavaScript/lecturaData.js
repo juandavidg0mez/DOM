@@ -28,15 +28,31 @@ function makeCardRopa(valoresJson){
     Card.appendChild(tallasValues)
     Card.appendChild(ventas)
     Card.style.backgroundColor = '#e4e4e4'
-    Card.style.width= '20%'
+    // Card.style.width= '20%'
+    Card.style.width = '15%'
     Card.style.borderRadius= '20px'
     Card.style.textAlign = 'center'; // Centrar el contenido del div
     Card.style.margin = '20px'; 
+    Card.style.padding = '20px'; 
+    //boton
     ventas.style.padding = '10px'
-    ventas.style.borderRadius= '10px'// Añadir un margen para mayor separación
+    ventas.style.borderRadius= '10px'
+    ventas.style.border = 'none'// Añadir un margen para mayor separación
+    //responsive Por carta
+    contenedor.style.display = 'flex'
+     // La tarjeta se expandirá para llenar el contenedor
+    Card.style.minWidth = '250px'; // Evitar que la tarjeta se expanda demasiado
+    Card.style.boxSizing = 'border-box'; 
     
-    contenedor.style.display = 'flex'; 
-    // contenedor.style.flex = 'flex-direction' // Aplicar flexbox al contenedor
+    contenedor.style.display = 'flex';
+    contenedor.style.flexDirection = 'row'; // Cambiado a 'row' para que las tarjetas se organicen horizontalmente
+    contenedor.style.flexWrap = 'wrap';
+    contenedor.style.justifyContent = 'space-between';
+    contenedor.style.alignitems= 'stretch';
+    // Espacio entre las tarjetas
+    
+
+    
     contenedor.appendChild(Card);
 
 
