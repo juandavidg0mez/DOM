@@ -6,10 +6,18 @@ let numero = d.querySelector('#number');
 let agendar = d.querySelector('#agendar');
 let enviar = d.querySelector('#enviar');
 let id = 0;
+const contenedorCarta = document.querySelector('#contenedorCarta')
 
-enviar.addEventListener('click', () => {
-    // Crear un objeto JSON con los valores de los campos de entrada
+function CardAgenda(data){
     
+    
+    
+}
+
+
+enviar.addEventListener('click', (e) => {
+    // Crear un objeto JSON con los valores de los campos de entrada
+    e.preventDefault()
     const data = {
         nombres: nombres.value,
         apellidos: apellidos.value,
@@ -18,13 +26,12 @@ enviar.addEventListener('click', () => {
         agendar: agendar.value,
 
     };
-
-    // makeRopa(data)
-   
-
+    
+    
+    CardAgenda(data);
 
     // Imprimir el objeto JSON en la consola
-    fetch('http://localhost:3000/agenda', {
+    fetch('https://fantastic-spoon-pjgrj5pqj7rh7rv9-3000.app.github.dev/agenda', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json; charset=utf-8',
