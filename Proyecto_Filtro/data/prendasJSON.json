@@ -11,7 +11,7 @@
             "L"
         ],
         "precio": "$65.000",
-        "rutaprenda": "/imagenes/imagen_01.JPG",
+        "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_01.JPG",
         "contacto": "Jacks",
         "enviosLugares": [
             {
@@ -39,7 +39,7 @@
             "L"
         ],
         "precio": "$110.000",
-        "rutaprenda": "/imagenes/imagen_02.JPG",
+        "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_02.JPG",
         "contacto": "Jacks",
         "enviosLugares": [
             {
@@ -67,7 +67,7 @@
             "L"
         ],
         "precio": "$120.000",
-        "rutaprenda": "/imagenes/imagen_03.JPG",
+        "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_03.JPG",
         "contacto": "Jacks",
         "enviosLugares": [
             {
@@ -95,7 +95,7 @@
             "L"
         ],
         "precio": "$55.000",
-        "rutaprenda": "/imagenes/imagen_04.JPG",
+        "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_04.JPG",
         "contacto": "Jacks",
         "enviosLugares": [
             {
@@ -123,7 +123,7 @@
             "L"
         ],
         "precio": "$120.000",
-        "rutaprenda": "/imagenes/imagen_05.jpg",
+        "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_05.jpg",
         "contacto": "Jacks",
         "enviosLugares": [
             {

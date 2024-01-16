@@ -49,7 +49,7 @@ function makeCardRopa(valoresJson){
 
 
 async function lecturaDataShop (){
-    const dataShop = await fetch(`http://127.0.0.1:5500/data/prendasJSON.json`)
+    const dataShop = await fetch(`https://fantastic-spoon-pjgrj5pqj7rh7rv9-5500.app.github.dev/Proyecto_Filtro/data/prendasJSON.json`)
     const json = await dataShop.json();
     
     for (let i = 0; i < json.length; i++) {
