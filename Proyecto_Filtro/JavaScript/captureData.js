@@ -4,12 +4,12 @@ let apellidos = d.querySelector('#Apellidos');
 let opciones = d.querySelector('#opcionSelect');
 let numero = d.querySelector('#number');
 let agendar = d.querySelector('#agendar');
-const enviar = d.querySelector('#enviar');
+let enviar = d.querySelector('#enviar');
 let id = 0;
 
-enviar.addEventListener('click', (e) => {
+enviar.addEventListener('click', () => {
     // Crear un objeto JSON con los valores de los campos de entrada
-    e.preventDefault()
+    
     const data = {
         nombres: nombres.value,
         apellidos: apellidos.value,
