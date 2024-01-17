@@ -1,3 +1,9 @@
+let listaDePrecios = []
+function addToFactur(){
+    
+}
+
+
 function makeCardRopa(valoresJson){
     const {nombrePrenda, coleccion, rutaprenda, precio, tallas} = valoresJson
     const contenedor = document.querySelector('#contenedor-Primario');
@@ -8,12 +14,11 @@ function makeCardRopa(valoresJson){
     const characterImage = document.createElement('img')
     characterImage.src = rutaprenda;
     characterImage.width = 200;
-    const precioprenda = document.createElement('h3')
+    const precioprenda = document.createElement('button')
     precioprenda.textContent = precio
     const tallasValues = document.createElement('li')
     tallasValues.textContent = tallas
-    const ventas = document.createElement('button')
-    ventas.textContent= 'ADD-to'
+    
 
 
 
@@ -26,7 +31,6 @@ function makeCardRopa(valoresJson){
     Card.appendChild(characterImage);
     Card.appendChild(precioprenda)
     Card.appendChild(tallasValues)
-    Card.appendChild(ventas)
     Card.style.backgroundColor = '#e4e4e4'
     // Card.style.width= '20%'
     Card.style.width = '15%'
@@ -35,9 +39,38 @@ function makeCardRopa(valoresJson){
     Card.style.margin = '20px'; 
     Card.style.padding = '20px'; 
     //boton
-    ventas.style.padding = '10px'
-    ventas.style.borderRadius= '10px'
-    ventas.style.border = 'none'// Añadir un margen para mayor separación
+    precioprenda.style.padding = '10px'
+    precioprenda.style.fontSize = '20px'
+    precioprenda.style.margin='20px'
+    precioprenda.style.borderRadius= '10px'
+    precioprenda.style.border = 'none'// Añadir un margen para mayor separación
+    
+    // let acomuladorTotal = 0
+    // precioprenda.addEventListener('click',()=>{
+    //     const UbicacionFactura = document.querySelector('.factuacion')
+    //     const nuevo = document.createElement('div')
+    //     UbicacionFactura.innerText= parseFloat(precio)
+    //     nuevo.appendChild(UbicacionFactura)
+    // })
+
+
+    let acomunladorPrecios = 0;
+    const div = document.createElement('div');
+
+    // console.log(listaDePrecios)
+    precioprenda.addEventListener('click', () => {
+        // Suma el precio al acumulador
+        acomunladorPrecios += parseFloat(precio);
+
+        
+        // Muestra el total acumulado en el elemento creado (div)
+        div.textContent = `Total: ${acomunladorPrecios}`;
+        
+        // Agrega el elemento creado (div) al documento
+        document.body.appendChild(div);
+        
+    });    
+
     //responsive Por carta
     contenedor.style.display = 'flex'
      // La tarjeta se expandirá para llenar el contenedor
@@ -54,12 +87,23 @@ function makeCardRopa(valoresJson){
 
     
     contenedor.appendChild(Card);
+    // button.addEventListener('click', ()=>{
+    //     let rutaPrecio = 2;
+    //     acomunladorPrecios += rutaPrecio; // Corrección aquí
+    //     div.textContent = acomunladorPrecios
+    //     // let contenedor2 = document.querySelector('#contenedor')
+    
+    //     button.append(div);
+    // })
+    
 
 
 
 }
+let acomunladorPrecios = 0
 
 
+const div = document.createElement('div')
 
 
 
@@ -69,6 +113,8 @@ async function lecturaDataShop (){
     const json = await dataShop.json();
     
     for (let i = 0; i < json.length; i++) {
+        buttonFactura = json[i].precio;
+        
         makeCardRopa(json[i])
         
     }

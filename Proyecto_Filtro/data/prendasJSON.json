@@ -10,7 +10,7 @@
             "M",
             "L"
         ],
-        "precio": 65.000,
+        "precio": 65.999,
         "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_01.JPG",
         "contacto": "Jacks",
         "enviosLugares": [
@@ -38,7 +38,7 @@
             "M",
             "L"
         ],
-        "precio": 300.000,
+        "precio": 300.999,
         "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_02.JPG",
         "contacto": "Jacks",
         "enviosLugares": [
@@ -66,7 +66,7 @@
             "M",
             "L"
         ],
-        "precio": 600.000,
+        "precio": 600.999,
         "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_03.JPG",
         "contacto": "Jacks",
         "enviosLugares": [
@@ -94,7 +94,7 @@
             "M",
             "L"
         ],
-        "precio": "55.000",
+        "precio": 55.999,
         "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_04.JPG",
         "contacto": "Jacks",
         "enviosLugares": [
@@ -122,203 +122,7 @@
             "M",
             "L"
         ],
-        "precio": 300.000,
-        "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_05.jpg",
-        "contacto": "Jacks",
-        "enviosLugares": [
-            {
-                "lugar": "Villavicencio",
-                "costo": "Envio Gratis"
-            },
-            {
-                "lugar": "España",
-                "costo": [
-                    120,
-                    "€"
-                ]
-            }
-        ]
-    },
-    {
-        "prendaId": 4,
-        "nombrePrenda": "Conjunto Ejecutivo Dama",
-        "coleccion": "Ejecutivo",
-        "tallas": [
-            "XS",
-            "XL",
-            "S",
-            "M",
-            "L"
-        ],
-        "precio": 300.000,
-        "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_05.jpg",
-        "contacto": "Jacks",
-        "enviosLugares": [
-            {
-                "lugar": "Villavicencio",
-                "costo": "Envio Gratis"
-            },
-            {
-                "lugar": "España",
-                "costo": [
-                    120,
-                    "€"
-                ]
-            }
-        ]
-    },
-    {
-        "prendaId": 4,
-        "nombrePrenda": "Conjunto Ejecutivo Dama",
-        "coleccion": "Ejecutivo",
-        "tallas": [
-            "XS",
-            "XL",
-            "S",
-            "M",
-            "L"
-        ],
-        "precio": 120.000,
-        "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_05.jpg",
-        "contacto": "Jacks",
-        "enviosLugares": [
-            {
-                "lugar": "Villavicencio",
-                "costo": "Envio Gratis"
-            },
-            {
-                "lugar": "España",
-                "costo": [
-                    120,
-                    "€"
-                ]
-            }
-        ]
-    },
-    {
-        "prendaId": 4,
-        "nombrePrenda": "Conjunto Ejecutivo Dama",
-        "coleccion": "Ejecutivo",
-        "tallas": [
-            "XS",
-            "XL",
-            "S",
-            "M",
-            "L"
-        ],
-        "precio": 120.000,
-        "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_05.jpg",
-        "contacto": "Jacks",
-        "enviosLugares": [
-            {
-                "lugar": "Villavicencio",
-                "costo": "Envio Gratis"
-            },
-            {
-                "lugar": "España",
-                "costo": [
-                    120,
-                    "€"
-                ]
-            }
-        ]
-    },
-    {
-        "prendaId": 4,
-        "nombrePrenda": "Conjunto Ejecutivo Dama",
-        "coleccion": "Ejecutivo",
-        "tallas": [
-            "XS",
-            "XL",
-            "S",
-            "M",
-            "L"
-        ],
-        "precio": "120.000",
-        "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_05.jpg",
-        "contacto": "Jacks",
-        "enviosLugares": [
-            {
-                "lugar": "Villavicencio",
-                "costo": "Envio Gratis"
-            },
-            {
-                "lugar": "España",
-                "costo": [
-                    120,
-                    "€"
-                ]
-            }
-        ]
-    },
-    {
-        "prendaId": 4,
-        "nombrePrenda": "Conjunto Ejecutivo Dama",
-        "coleccion": "Ejecutivo",
-        "tallas": [
-            "XS",
-            "XL",
-            "S",
-            "M",
-            "L"
-        ],
-        "precio": 200.000,
-        "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_05.jpg",
-        "contacto": "Jacks",
-        "enviosLugares": [
-            {
-                "lugar": "Villavicencio",
-                "costo": "Envio Gratis"
-            },
-            {
-                "lugar": "España",
-                "costo": [
-                    120,
-                    "€"
-                ]
-            }
-        ]
-    },
-    {
-        "prendaId": 4,
-        "nombrePrenda": "Conjunto Ejecutivo Dama",
-        "coleccion": "Ejecutivo",
-        "tallas": [
-            "XS",
-            "XL",
-            "S",
-            "M",
-            "L"
-        ],
-        "precio": 200.000,
-        "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_05.jpg",
-        "contacto": "Jacks",
-        "enviosLugares": [
-            {
-                "lugar": "Villavicencio",
-                "costo": "Envio Gratis"
-            },
-            {
-                "lugar": "España",
-                "costo": [
-                    120,
-                    "€"
-                ]
-            }
-        ]
-    },
-    {
-        "prendaId": 4,
-        "nombrePrenda": "Conjunto Ejecutivo Dama",
-        "coleccion": "Ejecutivo",
-        "tallas": [
-            "XS",
-            "XL",
-            "S",
-            "M",
-            "L"
-        ],
-        "precio": 200.000,
+        "precio": 300.999,
         "rutaprenda": "/Proyecto_Filtro/imagenes/imagen_05.jpg",
         "contacto": "Jacks",
         "enviosLugares": [
