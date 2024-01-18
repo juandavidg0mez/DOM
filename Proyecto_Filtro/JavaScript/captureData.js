@@ -26,7 +26,7 @@ enviar.addEventListener('click', (evento) => {
 
     // Imprimir el objeto JSON en la consola
     async function envio() {
-            await fetch(`http://localhost:3000/agenda`, {
+            await fetch(`hhttp://localhost:3000/agenda`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json; charset=utf-8',
