@@ -1,0 +1,35 @@
+{
+  "agenda": [
+    {
+      "id": "d9e1",
+      "nombres": "ibarra",
+      "apellidos": "ibara",
+      "numero": "3122782",
+      "opciones": "opcion3",
+      "agendar": "2024-01-18T18:10"
+    }
+  ],
+  "factura": [
+    {
+      "id": "bad7",
+      "nombres": "juan",
+      "apellidos": "meza",
+      "numeroCuenta": "1123",
+      "CVV": "700"
+    },
+    {
+      "id": "667e",
+      "nombres": "cristian",
+      "apellidos": "ibarra",
+      "numeroCuenta": "1123",
+      "CVV": "700"
+    },
+    {
+      "id": "44f7",
+      "nombres": "cristian",
+      "apellidos": "ibarra",
+      "numeroCuenta": "1123",
+      "CVV": "700"
+    }
+  ]
+}
