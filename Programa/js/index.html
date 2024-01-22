@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Programa/css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>CRUD LOCAL CON AXIOS</h1>
+
+    <section class="crud">
+        <article>
+            <h2 class="crud-title">AGREGAR NUEVA PLAYA</h2>
+            <form class="crud-form">
+                <input class="input_label" type="text" name="nombre" placeholder="Nombre de la playa" required>
+                <input class="input_label" type="text" name="estado" placeholder="Nombre del estado" required>
+                <input class="input_submit" type="submit" value="GUARDAR">
+                <input type="hidden" name="id">
+            </form>
+        </article>
+
+        <article class="data-request">
+            <table class="crud-table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </article>
+    </section>
+
+    <template id="crud-template">
+        <tr>
+            <td class="name"></td>
+            <td class="estado"></td>
+            <td>
+                <button class="edit">Editar</button>
+                <button class="delete">Eliminar</button>
+            </td>
+        </tr>
+    </template>
+
+
+
+    <script src="Script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+
+</html>
